@@ -1,6 +1,3 @@
-# simply-weather
-A simple weather app with authenication
-
 ## To start the app:
 
 `cd backend`
