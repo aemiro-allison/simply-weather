@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+     "react",
+     "import"
+  ],
+  "rules": {
+    "react/prop-types": "off",
+    "no-console": "off"
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:import/errors", "plugin:import/warnings"]
+}

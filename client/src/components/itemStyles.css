@@ -1,0 +1,4 @@
+.weather-item:hover {
+    cursor: pointer;
+    background: #eee;
+}
